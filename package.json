@@ -8,7 +8,7 @@
     "dev": "nodemon --inspect src/main.js",
     "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node src/main.js"
   },
   "repository": {
     "type": "git",
