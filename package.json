@@ -5,10 +5,10 @@
   "main": "src/main.js",
   "scripts": {
     "beautiful": "prettier --single-quote --trailing-comma all --tab-width 4 --write \"src/**/*.{js,json,scss}\"",
-    "start": "nodemon --inspect src/main.js",
+    "dev": "nodemon --inspect src/main.js",
     "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku": "node main.js"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
