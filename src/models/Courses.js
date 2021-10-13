@@ -7,7 +7,7 @@ const Schema = mongoose.Schema;
 
 const Course = new Schema({
     name: { type: String, required: true},
-    descripttion: { type: String, },
+    description: { type: String, },
     image: { type: String,  required: true},
     slug: { type: String, slug: 'name', unique: true }
 }, {

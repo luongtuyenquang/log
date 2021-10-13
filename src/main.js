@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const handlebars = require('express-handlebars');
 const app = express();
 const port = process.env.PORT || 3000;
-const Course = require('./models/Courses'); //import file models vào file main.js
+const Course = require('./models/Courses');
 const route = require('./routes/router')
 const methodOverride = require('method-override')
 
